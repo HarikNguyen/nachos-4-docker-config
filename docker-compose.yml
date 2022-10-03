@@ -1,0 +1,13 @@
+version: '3.0'
+services:
+  nachos:
+    container_name: nachos-prj
+    image: hariknguyen2419/nachos:latest
+    # command: echo nachos | sudo -S service ssh start && /bin/bash
+    networks:
+      - nachos
+    tty: true
+networks:
+  nachos:
+    name: nachos_network
+    driver: bridge
