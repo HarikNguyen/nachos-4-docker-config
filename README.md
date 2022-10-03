@@ -1,4 +1,4 @@
-# nachos-prj-01
+# nachos
 
 1. [Run docker container containing nachos](#docker)
 - Run docker compose
@@ -17,12 +17,6 @@ type
 > ssh nachos@<ip_address>
 type "yes"
 type password: nachos
-2. [Config vscode using ssh-remote](#vscode)
-- Install vscode extension
-> Remote - SSH
-type Ctrl + Shift + P
-type "Remote-SSH: Add new SSH host"
-fill the command with "ssh nachos@<ip_address>" --> OK
-type "Remote-SSH: Connect to Host" 
+
 
 
